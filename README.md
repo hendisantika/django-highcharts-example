@@ -19,8 +19,15 @@ python manage.py migrate
 
 The migration will also populate the database.
 
+Create User Login 
+```bash
+python manage.py createsuperuser
+```
+
 Finally, run the development server:
 
 python manage.py runserver
 
 The project will be available at 127.0.0.1:8000.
+
+Log in with your superuser credentials.
