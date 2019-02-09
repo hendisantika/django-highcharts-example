@@ -24,7 +24,10 @@ def add_passengers(apps, schema_editor):
                 sex = 'M'
             age = 0.0
             if entry[AGE]:
-                age = float(entry[AGE])
+                try:
+                    age = float(entry[AGE])
+                except:
+                    age = 0
             Passenger.objects.create(
                 name=entry[NAME],
                 sex=sex,
