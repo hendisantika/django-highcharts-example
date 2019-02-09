@@ -31,3 +31,21 @@ python manage.py runserver
 The project will be available at 127.0.0.1:8000.
 
 Log in with your superuser credentials.
+
+![Admin Page](img/admin.png "Admin Page")
+
+Home Page
+
+![Home Page](img/home.png "Home Page")
+
+Ticket Class 1 Page
+
+![Ticket Class 1](img/class1.png "Ticket Class 1")
+
+Ticket Class 2 Page
+
+![Ticket Class 2](img/class2.png "Ticket Class 2")
+
+Ticket Class 3
+
+![Ticket Class 3](img/class3.png "Ticket Class 3")
